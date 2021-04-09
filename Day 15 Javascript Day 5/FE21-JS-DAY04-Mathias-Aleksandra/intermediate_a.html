@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Exercise 1
+Now you will extend the classes from the previous exercise. 
+Car: Extend with a child class called Motorbike, that will inherit the property and methods from the parent Class, as well as create new properties and methods that are unique to this class. Example: number of wheels.
+Animal: Extend with a child class called Fish, that will inherit the property and methods from the parent Class, as well as create new properties and methods that are unique to this class. Example: type of water it inhabits.
+Person: Extend with a child class called Profession, that will inherit the property and methods from the parent Class, as well as create new properties and methods that are unique to this class. Example: job position.
+Create, using the Child classes, 3 different objects for each class.
+The results from the methods must be printed on the browser too. -->
+
+
+    <script>
+
+       class Car {
+           constructor(name, model, color) {
+               this.name = name;
+               this.model = model;
+               this.color = color;
+           }
+
+           showCar(){
+               //return this.name + " " + this.model + " " + this.color;
+               return `Name: ${this.name},  model: ${this.model}, color: ${this.color} <br>`
+           }
+       }
+
+       var car1 = new Car("Tesla", 3, "white");
+       var car2 = new Car("Ferrari", 212, "red");
+       var car3 = new Car("Land Rover", "Defender", "olive");
+
+       var cars = [car1, car2, car3];
+       for( let i of cars ) {
+        console.log(i.showCar());
+        document.write(i.showCar());
+       }
+       
+
+       class Motorbike extends Car {
+           constructor(name, model, color, wheels) {
+                super(name, model, color);
+                this.wheels = wheels;
+           }
+           showCar() {
+               return super.showCar() + " Motorbike has: " + this.wheels + " wheels." + "<br><br>";
+           }
+       }
+
+       var car4 = new Motorbike("Honda", 2, "blue", 2);
+       console.log(car4.showCar());
+       document.write(car4.showCar());
+
+
+
+
+       class Animal {
+           constructor(name, age, weight) {
+               this.name = name;
+               this.age = age;
+               this.weight = weight;
+           }
+
+           showAnimal(){
+               return `Name: ${this.name},  age: ${this.age}, weight: ${this.weight}kg <br>`
+           }
+       }
+
+       var animal1 = new Animal("Dog", 2, 4);
+       var animal2 = new Animal("Cat", 5, 3);
+       var animal3 = new Animal("Chicken", 4, 2);
+       
+       var animals = [animal1, animal2, animal3];
+       for( let i of animals ) {
+        console.log(i.showAnimal());
+        document.write(i.showAnimal());
+       }
+
+       class Fish extends Animal {
+           constructor(name, age, weight, water) {
+               super(name, age, weight);
+               this.water = water;
+           }
+           showAnimal() {
+               return super.showAnimal() + " Can be found in: " + this.water + "<br><br>";
+           }
+       }
+
+       var animal4 = new Fish("Salmon", 7, 16, "Pacific");
+       console.log(animal4.showAnimal());
+       document.write(animal4.showAnimal());
+       
+
+
+
+       class Person {
+           constructor(name, age, job) {
+               this.name = name;
+               this.age = age;
+               this.job = job;
+           }
+
+           showPerson(){
+               return `Name: ${this.name},  age: ${this.age}, job: ${this.job} <br>`
+           }
+       } 
+       
+       var person1 = new Person("Ella", 30, "IT");
+       var person2 = new Person("Theo", 25, "Architecture");
+       var person3 = new Person("Oliver", 34, "Physician");
+
+       var persons = [person1, person2, person3];
+       for( let i of persons ) {
+        console.log(i.showPerson());
+        document.write(i.showPerson());
+       }
+
+       class Profession extends Person {
+           constructor(name, age, job, position) {
+                super(name, age, job);
+                this.position = position;
+           }
+           showPerson() {
+               return super.showPerson() + " Job position: " + this.position;
+           }
+       }
+
+       var person4 = new Profession("Marc", 45, "Trainer", "Dog Trainer");
+       console.log(person4.showPerson());
+       document.write(person4.showPerson());
+       
+
+    </script>
+</body>
+</html>

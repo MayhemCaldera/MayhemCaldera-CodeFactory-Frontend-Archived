@@ -1,0 +1,16 @@
+.headline_1{
+    width:100%;
+    font-weight: 400px;
+    font-size: 42px;
+    text-transform: uppercase;
+  
+    box-sizing: border-box;
+    padding: 10px 0 10px 0;
+}
+.headline_2{
+    font-weight: 400px;
+    font-size: 18px;
+    box-sizing: border-box;
+    font-style: italic;
+    padding: 10px 0 10px 0;
+}

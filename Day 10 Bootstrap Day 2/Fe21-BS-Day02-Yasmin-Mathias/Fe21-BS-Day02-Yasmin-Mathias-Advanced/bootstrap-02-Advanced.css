@@ -1,0 +1,20 @@
+a{
+    color: aqua;
+}
+.own-size{
+    display: flex;
+    
+    
+}
+.own-size1{
+   flex-wrap: wrap;
+    
+}
+
+.own-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+

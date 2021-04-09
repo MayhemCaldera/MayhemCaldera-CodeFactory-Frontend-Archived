@@ -1,0 +1,62 @@
+img {
+  width: 50px;
+}
+#face {
+  width: 400px;
+}
+
+
+
+#eyes2 {
+  width: 120px;
+  position: absolute;
+  left: 150px;
+  top: 180px;
+}
+
+#eyes1 {
+  width: 170px;
+  height: 80px;
+  opacity: 0.5;
+  position: absolute;
+  left: 125px;
+  top: 165px;
+  z-index: 10;
+}
+
+#hair1 {
+  width: 300px;
+  position: absolute;
+  left: 60px;
+  top: -20px;
+}
+
+#ears1 {
+  width: 350px;
+  position: absolute;
+  top: 70px;
+  left: 30px;
+}
+
+#nose1 {
+  position: absolute;
+  filter: opacity(0.5) drop-shadow(0 0 0 rgb(4, 253, 16));
+  left: 180px;
+  top: 230px;
+
+
+}
+
+#mouth2 {
+  position: absolute;
+  left: 120px;
+  top: 310px;
+  width: 100px;
+}
+
+#nose2 {
+  position: absolute;
+  left: 57px;
+  top: 240px;
+  width: 60px;
+}

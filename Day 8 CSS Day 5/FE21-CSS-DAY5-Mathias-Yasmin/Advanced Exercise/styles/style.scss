@@ -1,0 +1,19 @@
+$main-color: rgb(116, 116, 207);
+$secondary-color: purple;
+$font-color: black;
+$font-stock: font-family: 'Sulphur Point', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Sulphur+Point&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    // display: grid;
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+}

@@ -1,0 +1,41 @@
+
+
+let books = `
+[
+    {
+
+    "title": "Javascript for Dummies",
+    "author": "Dummy Dumb Dumb",
+    "read": false,
+    "price": "€ 30",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/51y+YhtJz-L._SX322_BO1,204,203,200_.jpg" 
+
+},{
+
+    "title": "HTML for Dummies",
+    "author": "Ed Tittel",
+    "read": false,
+    "price": "€ 20",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/51IuNDzDhwL._SX397_BO1,204,203,200_.jpg" 
+
+},{
+
+    "title": "Learn PHP",
+    "author": "Giggle",
+    "read": false,
+    "price": "€ 25",
+    "image": "https://m.media-amazon.com/images/I/51cjMg2TGDL.jpg" 
+
+},{
+
+    "title": "Javascript for Babies",
+    "author": "Baby Tom",
+    "read": true,
+    "price": "€ 15",
+    "image": "https://i.pinimg.com/originals/16/d0/fe/16d0fe4f34f99486468e8ffe4a76b5f7.jpg" 
+
+}
+
+]
+
+`

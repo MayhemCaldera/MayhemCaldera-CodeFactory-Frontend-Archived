@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Exercise 1
+Create 3 different objects for 3 different themes:  car, animal and person. The end result should be 9 objects in total.  These objects should have some properties like name, brand, model, type, color, weight, age... of course inherent to its type because, for instance, an animal has no brand... 
+
+Each object should have at least one method, that shows some properties about each theme. Feel free to expand on that.
+
+The message from the methods must be printed on the browser too. -->
+
+
+    <script>
+
+       class Car {
+           constructor(name, model, color) {
+               this.name = name;
+               this.model = model;
+               this.color = color;
+           }
+
+           showCar(){
+               //return this.name + " " + this.model + " " + this.color;
+               return `Name: ${this.name},  model: ${this.model}, color: ${this.color}`
+           }
+       }
+
+       var car1 = new Car("Tesla", 3, "white");
+       var car2 = new Car("Ferrari", 212, "red");
+       var car3 = new Car("Land Rover", "Defender", "olive");
+
+       var cars = [car1, car2, car3];
+      // console.log(car1.showCar());
+     //  console.log(car2.showCar());
+     //  console.log(car3.showCar());
+     for( let i of cars ) {
+        console.log(i.showCar());
+     }
+
+
+       class Animal {
+           constructor(name, age, weight) {
+               this.name = name;
+               this.age = age;
+               this.weight = weight;
+           }
+
+           showAnimal(){
+               return `Name: ${this.name},  age: ${this.age}, weight: ${this.weight}kg`
+           }
+       }
+
+       var animal1 = new Animal("Dog", 2, 4);
+       var animal2 = new Animal("Cat", 5, 3);
+       var animal3 = new Animal("Chicken", 4, 2);
+       
+       var animals = [animal1, animal2, animal3];
+       for( let i of animals ) {
+        console.log(i.showAnimal());
+       }
+
+
+       class Person {
+           constructor(name, age, job) {
+               this.name = name;
+               this.age = age;
+               this.job = job;
+           }
+
+           showPerson(){
+               return `Name: ${this.name},  age: ${this.age}, job: ${this.job}`
+           }
+       } 
+       
+       var person1 = new Person("Ella", 30, "IT");
+       var person2 = new Person("Theo", 25, "Architecture");
+       var person3 = new Person("Oliver", 34, "Physician");
+
+       var persons = [person1, person2, person3];
+       for( let i of persons ) {
+        console.log(i.showPerson());
+       }
+
+    </script>
+</body>
+</html>

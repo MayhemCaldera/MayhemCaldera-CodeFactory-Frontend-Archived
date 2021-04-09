@@ -1,0 +1,85 @@
+
+
+let employees = `
+
+[{
+
+    "userId": "29893944817",
+
+    "jobTitleName" : "Developer",
+
+    "firstName": "Patrik",
+
+    "lastName": "Jonathan",
+
+    "emailAddress": "patrik.k.jonathan@gmail.com",
+
+    "salary": "€2.700"
+
+}, {
+
+    "userId": "29823964877" ,
+
+    "jobTitleName": "Analyst",
+
+    "firstName": "Tom",
+
+    "lastName": "Irani",
+
+    "emailAddress": "tomrirani@gmail.com",
+
+    "salary": "€2.300"
+
+}, {
+
+    "userId": "25833742117" ,
+
+    "jobTitleName": "Program Directory",
+
+    "firstName": "Tom",
+
+    "lastName": "Hanks",
+
+    "emailAddress": "tomhanks@gmail.com",
+
+    "salary": "€1.700"
+
+}, {
+
+    "userId": "25833742144" ,
+
+    "jobTitleName": "Art Director",
+
+    "firstName": "Rachel",
+
+    "lastName": "Woodruff",
+
+    "emailAddress": "rachel.woodr@gmail.com",
+
+    "salary": "€1.900"
+
+}, {
+
+    "userId": "25833741245" ,
+
+    "jobTitleName": "Janitor",
+
+    "firstName": "Sascha",
+
+    "lastName": "Cohen",
+
+    "emailAddress": "sascha.cohen.4@gmail.com",
+
+    "salary": "€1.300"
+
+}
+
+
+
+
+
+
+
+]
+
+`

@@ -1,0 +1,28 @@
+<div class="container">
+  <table class="table">
+    <tr>
+      <th>Brand</th>
+      <th>Model</th>
+    </tr>
+
+    <tr *ngFor="let i of cars">
+      <td class="bg-danger">{{ i.brandName }}</td>
+      <td class="bg-primary">{{ i.modelName }}</td>
+    </tr>
+  </table>
+  <form [formGroup]="carAdd" (ngSubmit)="onSubmit()">
+    <label>
+      Brand Name:
+
+      <input type="text" formControlName="brandName" />
+    </label>
+
+    <label>
+      Model Name:
+
+      <input type="text" formControlName="modelName" />
+    </label>
+
+    <input type="submit" class="btn btn-dark" value="Submit" />
+  </form>
+</div>

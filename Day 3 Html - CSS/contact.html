@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel='stylesheet' type='text/css' href='contact.css'>
+    <title>Contact</title>
+</head>
+<body>
+    
+    <header>
+        <img src="img/p2.jpg">
+    </header>
+    <!--copy form here-->
+    <nav>
+        <div class="dropdown">
+        <button class="dropbtn">Links</button>
+            <div class="dropdown-content">
+                <a href="css1.challenge.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact us</a>
+            </div>
+        </div> 
+    </nav>  
+    <!--to here!!-->
+    
+    <br>   
+    
+    <form>
+        <div id="input_name">
+            <input type=”text” name="firstname" placeholder="First Name"><br>
+            <input type=”text” name="lastname" placeholder="Last Name"><br>
+        </div>
+        <br>
+        <div id="input_radio">
+            <input type="radio" name="gender"  value="male" checked> Male<br>
+            <input  type="radio" name="gender" value="female" > Female<br>
+            <input type="radio"  name="gender" value="other"> Other
+        </div>
+        <p>
+            Get in touch with us!
+        </p>
+        <textarea name="message" cols="30" rows="10" 
+        placeholder="Feel free to write anything here"></textarea>
+        <br>
+        <input type="submit" value="Send that stuff">
+
+    </form>
+</body>
+</html>

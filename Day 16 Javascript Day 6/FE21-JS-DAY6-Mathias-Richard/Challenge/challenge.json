@@ -1,0 +1,67 @@
+
+
+let cars = `
+
+[{
+
+        "model": "Nissan Syline GTR 34",
+        "hp": "450 HP",
+        "price": "€ 50.000",
+        "color": "Marine Blue",
+        "fuelType": "Gasoline",
+        "yearOfConst": "2002",
+        "image": "https://i.pinimg.com/originals/64/11/fe/6411fef43317d7e924720155f8aa864b.jpg"
+
+},  {
+
+    "model": "Dodge Charger RT",
+    "hp": "380 HP",
+    "price": "€ 45.000",
+    "color": "Matt Black",
+    "fuelType": "Gasoline",
+    "yearOfConst": "1969",
+    "image": "https://i.pinimg.com/originals/1f/20/6b/1f206b1060e2bd87618a8ee458a572a7.jpg"
+
+}, {
+
+    "model": "Ford Raptor",
+    "hp": "350 HP",
+    "price": "€ 53.000",
+    "color": "Red",
+    "fuelType": "Gasoline",
+    "yearOfConst": "2019",
+    "image": "https://media.timesfreepress.com/img/photos/2018/03/16/1521256255_031718c01-test-drive-1_t1070_hb1b57275c1e792d79151b15b1fb36b061de3effd.jpg"
+
+}, {
+
+    "model": "Hyundai i30",
+    "hp": "110 HP",
+    "price": "€ 4.000",
+    "color": "Red",
+    "fuelType": "Gasoline",
+    "yearOfConst": "2009",
+    "image": "https://d3lp4xedbqa8a5.cloudfront.net/imagegen/max/ccr/620/-/s3/digital-cougar-assets/Motoring/2014/01/13/2451/1.jpg"
+
+}, {
+
+    "model": "Ford Sierra",
+    "hp": "120 HP",
+    "price": "€ 300",
+    "color": "Red",
+    "fuelType": "Gasoline",
+    "yearOfConst": "1995",
+    "image": "https://i.ytimg.com/vi/zNIOFk45rfk/maxresdefault.jpg"
+
+}, {
+
+    "model": "Mitsubishi Colt",
+    "hp": "90 HP",
+    "price": "€ 1.600",
+    "color": "White",
+    "fuelType": "Gasoline",
+    "yearOfConst": "1996",
+    "image": "https://i.auto-bild.de/ir_img/3/4/9/7/8/Mitsubishi-Colt-1992-1996-474x267-91c7a1aa578aa1aa.jpg"
+
+} 
+
+]`

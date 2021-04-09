@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Offset Columns</title>
+</head>
+    <style>
+        div {
+            outline: 2px solid black;
+            
+        }
+
+        /* .row {
+            background-color: red;
+        } */
+
+        .container {
+            background-color: beige;
+        }
+
+        .bgcr {
+            background-color: red;
+        }
+
+        .bgcy {
+            background-color: yellow;
+        }
+
+        .bgcg {
+            background-color: grey;
+        }
+
+    </style>
+
+<body>
+    <link rel="script" href="script/bootstrap.js"/>
+    <div class="container-fluid p-3">
+        <div class="row bgcr p-3">
+          <div class="col-lg-1 col-md-2 bg-light">Left</div>
+          <div class= "col-lg-1 col-md-2 offset-md-8 offset-lg-10 bg-light">Right</div>
+        </div>
+        <div class="row bgcy p-3" >
+          <div class="col-lg-2 bg-light">Left</div>
+          <div class="col-lg-2 offset-lg-3 bg-light">Center</div>
+          <div class="col-lg-2 offset-lg-3 bg-light">Right</div>
+        </div >
+        <div class="row bgcg p-3">
+            <div class="col-lg-2 bg-light">Left</div>
+            <div class="col-lg-6 bg-light">Center</div>
+            <div class="col-lg-3 offset-lg-1 bg-light">Right</div>
+        </div>
+       </div>
+
+
+</body>
+</html>

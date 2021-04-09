@@ -1,0 +1,34 @@
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 32pt;
+}
+.school  {
+    /* width: 13vw; */
+    /* transition: width 2s; */
+    background: lightgreen;
+    /* border-radius: 10px; */
+    transition-delay: 0.1;
+}
+.school:hover {
+    font-size: 64pt;
+}
+a.fonts:hover {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-size: 44pt; */
+}
+.use:hover {
+    background: red;
+}
+.frog:hover {
+    color: palevioletred;
+}
+div:hover {
+    transform: rotate(180deg);
+}
+
+div {
+    width: 16vw;
+    background: blue;
+    transition: height 2s ease-in 2s;
+}

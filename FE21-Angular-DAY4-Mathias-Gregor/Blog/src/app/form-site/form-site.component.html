@@ -1,0 +1,20 @@
+<form [formGroup]="blogEntry">
+  <div>
+    <label for="entryText"> Text </label>
+    <input id="entryText" type="text" formControlName="entryText" />
+  </div>
+  <div>
+    <label for="name"> Name </label>
+    <input id="name" type="text" formControlName="name" />
+  </div>
+  <div>
+    <label for="place"> Location </label>
+    <input id="place" type="text" formControlName="place" />
+  </div>
+  <div>
+    <label for="dateTime"> Date </label>
+    <input type="date" value="" min="1900-01-01" max="2099-12-31" />
+  </div>
+  <button class="button" (click)="addToBlog(blogEntry.value)">Submit</button>
+  <!--hier hab ich die .value hinzugefügt-->
+</form>

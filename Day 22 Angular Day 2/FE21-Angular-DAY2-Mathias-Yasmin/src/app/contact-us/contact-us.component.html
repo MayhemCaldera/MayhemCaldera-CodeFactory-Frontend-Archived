@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="d-flex align-items-center flex-column bd-highlight mb-3">
+    <form class="d-flex" [formGroup]="inputs" (ngSubmit)="onSubmit()">
+      <label class="p-2 align-items-center">
+        First Name:
+
+        <input type="text" formControlName="firstName" />
+      </label>
+      <br />
+      <label class="p-2 align-items-center">
+        Last Name:
+
+        <input type="text" formControlName="lastName" />
+      </label>
+      <br />
+      <label class="p-2 justify-content-space-between">
+        Age:
+
+        <input type="text" formControlName="age" />
+      </label>
+      <br />
+      <label class="p-2">
+        Email:
+
+        <input type="text" formControlName="email" />
+      </label>
+      <br />
+      <input type="submit" class="btn btn-primary" value="Submit" />
+    </form>
+  </div>
+</div>
